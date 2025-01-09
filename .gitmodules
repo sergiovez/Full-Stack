@@ -31,3 +31,6 @@
 [submodule "ConquerBlocks/Frontend_experto/React_Avanzado"]
 	path = ConquerBlocks/Frontend_experto/React_Avanzado
 	url = https://github.com/ConquerBlocks/conquerblocks-reactjs-avanzado.git
+[submodule "ConquerBlocks/Frontend_experto/Angular"]
+	path = ConquerBlocks/Frontend_experto/Angular
+	url = https://github.com/ConquerBlocks/angular.git
