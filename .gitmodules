@@ -13,3 +13,6 @@
 [submodule "ConquerBlocks/Frontend/CSS"]
 	path = ConquerBlocks/Frontend/CSS
 	url = https://github.com/ConquerBlocks/conquerblocks-css.git
+[submodule "ConquerBlocks/Frontend/JavaScript"]
+	path = ConquerBlocks/Frontend/JavaScript
+	url = https://github.com/ConquerBlocks/conquerblocks-js.git
