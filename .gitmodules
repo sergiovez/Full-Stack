@@ -1,0 +1,3 @@
+[submodule "ConquerBlocks/Backend/HTML"]
+	path = ConquerBlocks/Backend/HTML
+	url = https://github.com/ConquerBlocks/conquerblocks-html.git
