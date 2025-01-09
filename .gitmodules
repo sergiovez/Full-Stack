@@ -34,3 +34,6 @@
 [submodule "ConquerBlocks/Frontend_experto/Angular"]
 	path = ConquerBlocks/Frontend_experto/Angular
 	url = https://github.com/ConquerBlocks/angular.git
+[submodule "ConquerBlocks/Frontend_experto/VueJS"]
+	path = ConquerBlocks/Frontend_experto/VueJS
+	url = https://github.com/ConquerBlocks/conquerblocks-vuejs.git
