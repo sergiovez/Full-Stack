@@ -19,3 +19,6 @@
 [submodule "ConquerBlocks/Frontend/ReactJS"]
 	path = ConquerBlocks/Frontend/ReactJS
 	url = https://github.com/ConquerBlocks/conquerblocks-reactjs.git
+[submodule "ConquerBlocks/Backend/Django_Inicial"]
+	path = ConquerBlocks/Backend/Django_Inicial
+	url = https://github.com/ConquerBlocks/conquerblocks-django-inicial.git
