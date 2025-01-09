@@ -28,3 +28,6 @@
 [submodule "ConquerBlocks/Frontend_experto/Astro"]
 	path = ConquerBlocks/Frontend_experto/Astro
 	url = https://github.com/ConquerBlocks/conquerblocks-astro.git
+[submodule "ConquerBlocks/Frontend_experto/React_Avanzado"]
+	path = ConquerBlocks/Frontend_experto/React_Avanzado
+	url = https://github.com/ConquerBlocks/conquerblocks-reactjs-avanzado.git
