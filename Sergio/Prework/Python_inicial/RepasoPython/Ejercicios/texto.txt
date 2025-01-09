@@ -1,0 +1,1 @@
+Este es un texto de prueba donde quiero contar cuantas veces aparece la palabra casa casa casa

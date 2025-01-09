@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Esta es la tarea 12 de HTML</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Estoy creando formularios!!">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="formularios">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@sergiovez">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon_1.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <h2>Información sobre el producto</h2>
+<hr/>
+    <form action="" name="registro" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <p><label for="name">Nombre</label><br>
+                <input type="text" name="nombre" id="name">
+            </p>
+            <p><label for="description">Descripción</label><br>
+                <textarea name="descripcion" id="description" cols="50" rows="5"></textarea>
+            </p>
+            <p><label for="picture">Foto</label>
+                <input type="file" name="picture" id="picture" size="10">
+            </p>
+            <p>
+                <input type="checkbox" name="contador" id="contador">
+                <label for="contador">Añadir contador de visitas</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <p><label for="prize">Precio</label>
+                <input type="number" name="prize" id="prize">
+                €
+                &nbsp&nbsp&nbsp&nbsp
+                <label for="impuestos">Impuestos</label>
+                <select name="impuestos" id="impuestos">
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </select>
+            </p>
+            <p>
+                Promoción<br>
+                <input type="radio" name="pro" value="ninguno" id="ninguno">
+                <label for="ninguno">Ninguno</label><br>
+                <input type="radio" name="pro" value="ptransportero" id="transporte">
+                <label for="transporte">Transporte gratuito</label><br>
+                <input type="radio" name="pro" value="descuento" id="descuento">
+                <label for="descuento">Descuento 5%</label>
+            </p>
+        </fieldset>
+        <br>
+        <button>Enviar</button>           
+    </form>
+ </body>
+
+</html>

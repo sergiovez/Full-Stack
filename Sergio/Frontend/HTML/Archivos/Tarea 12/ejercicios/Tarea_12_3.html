@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Esta es la tarea 12 de HTML</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Estoy creando formularios!!">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="formularios">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@sergiovez">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon_1.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <h2>Rellena tu CV</h2>
+<hr/>
+    <form action="" name="registro" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p><label for="province">Provincia</label><br>
+                <select name="provincia" id="province">
+                <option value="">-selecciona-</option>    
+                <option value="alicante">Alicante</option>
+                <option value="madrid">Madrid</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="valencia">Valencia</option>
+                </select>
+            </p>
+            <p><label for="">Fecha de nacimiento</label><br>
+                <input type="text" name="dia" id="day" maxlength="2" size="2">
+                de
+                <select name="mes" id=month">
+                    <option value="">-</option>
+                    <option value="1">Enero</option> 
+                    <option value="2">Febrero</option> 
+                    <option value="3">Marzo</option> 
+                    <option value="4">Abril</option> 
+                    <option value="5">Mayo</option> 
+                    <option value="6">Junio</option> 
+                    <option value="7">Julio</option> 
+                    <option value="8">Agosto</option> 
+                    <option value="9">Septiembre</option> 
+                    <option value="10">Octubre</option> 
+                    <option value="11">Noviembre</option> 
+                    <option value="12">Diciembre</option> 
+
+                </select>
+                de
+                <input type="text" name="año" id="ano" maxlength="4" size="4">
+            </p>
+            <p><label for="interest">Temas de interés</label><br>
+                <select name="intereses" id="interest" size="5">
+                    <option value="adm">Administración de base de datos</option>
+                    <option value="ana">Análisis y programación</option>
+                    <option value="arq">Arquitectura</option>
+                    <option value="cal">Calidad</option>
+                    <option value="erp">ERP, CRM, Business Intelligence</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </p>
+        </fieldset>
+        <br>
+        <button>Enviar</button>           
+    </form>
+ </body>
+
+</html>

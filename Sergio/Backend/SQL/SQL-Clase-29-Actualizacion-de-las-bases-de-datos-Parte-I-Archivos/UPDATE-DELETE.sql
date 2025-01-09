@@ -1,0 +1,47 @@
+/*
+	UPDATE - modificar/actualizar valores de la tabla
+    
+    UPDATE TABLA
+		SET COL1 = VALOR, COL2 = VALOR ... 
+		WHERE CONDICION
+*/
+
+SELECT * FROM ESTUDIANTES; 
+
+UPDATE ESTUDIANTES 
+	SET NOMBRE="JUAN LUIS" WHERE CODIGO = 1;
+
+UPDATE ESTUDIANTES 
+	SET EDAD = 40 WHERE FECHA_MATRICULA = "2024-01-11";
+    
+    
+    /*
+		DELETE - borrar filas de una tabla. MUCHO CUIDADO, PORQUE PODÉIS BORRAR LA TABLA ENTERA !!!
+        
+        DELETE FROM TABLA WHERE CONDICION; 
+    */
+    
+    DELETE FROM ESTUDIANTES WHERE CODIGO = 9;
+    
+    
+    
+    /*
+    REPLACE - Reemplazar los datos de una fila
+    
+    REPLACE INTO TABLE (C1, C2) VALUES (V1, V2);
+    */
+    
+    SELECT * FROM ESTUDIANTES;
+    
+    REPLACE INTO ESTUDIANTES (CODIGO, NOMBRE, EDAD, FECHA_MATRICULA) 
+    VALUES (6, "MANUEL", 33, "2024-01-14");
+    
+    
+        REPLACE INTO ESTUDIANTES (CODIGO, NOMBRE, EDAD, FECHA_MATRICULA) 
+		VALUES (9, "ISMAEL", 28, "2024-01-30");
+    
+    SELECT * FROM ESTUDIANTES; 
+    
+    
+    
+    

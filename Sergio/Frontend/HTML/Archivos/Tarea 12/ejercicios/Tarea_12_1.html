@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Esta es la tarea 12 de HTML</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Estoy creando formularios!!">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="formularios">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@sergiovez">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon_1.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <h1>Formulario de registro - Mi web</h1>
+<hr/>
+    <form action="" name="registro" method="get">
+        <p><label for="name">Nombre</label>
+            <input type="text" name="nombre" id="name" maxlength="50">
+        </p>
+        <p><label for="surname">Apellidos</label>
+            <input type="text" name="apellidos" id="surname" maxlength="50">
+        </p>
+        <p>
+            <label for="">Sexo</label><br>
+            <input type="radio" name="sexo" value ="man" id="man">
+            <label for="man">Hombre</label><br>
+            <input type="radio" name="sexo" value="woman" id="woman">
+            <label for="woman">Mujer</label>
+        </p>
+        <p><label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="poblacion">Población</label>
+            <select name="poblacion" id="poblacion">
+            <option value=""></option>    
+            <option value="alicante">Alicante</option>
+            <option value="madrid">Madrid</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="valencia">Valencia</option>
+            </select>
+        </p>
+        <p>
+            <label for="descripcion">Descripción</label><br>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escribe aqui el contenido de la descripción"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="info" id="verificacion" checked>
+            <label for="verificacion">Deseo recibir información sobre novedades y ofertas</label>
+        </p>
+        <p>
+            <input type="checkbox" name="info" id="condiciones" required>
+            <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del
+                programa y la normativa sobre protección de datos</label>
+        </p>
+        <p>
+            <button>Enviar</button>
+        </p>
+    </form>
+ </body>
+
+</html>
