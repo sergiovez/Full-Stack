@@ -16,3 +16,6 @@
 [submodule "ConquerBlocks/Frontend/JavaScript"]
 	path = ConquerBlocks/Frontend/JavaScript
 	url = https://github.com/ConquerBlocks/conquerblocks-js.git
+[submodule "ConquerBlocks/Frontend/ReactJS"]
+	path = ConquerBlocks/Frontend/ReactJS
+	url = https://github.com/ConquerBlocks/conquerblocks-reactjs.git
