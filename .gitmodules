@@ -25,3 +25,6 @@
 [submodule "ConquerBlocks/Backend_experto/NodeJS"]
 	path = ConquerBlocks/Backend_experto/NodeJS
 	url = https://github.com/ConquerBlocks/conquerblocks-nodejs.git
+[submodule "ConquerBlocks/Frontend_experto/Astro"]
+	path = ConquerBlocks/Frontend_experto/Astro
+	url = https://github.com/ConquerBlocks/conquerblocks-astro.git
