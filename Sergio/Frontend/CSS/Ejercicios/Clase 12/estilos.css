@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Akronim';
+    src: url('fonts/Akronim-Regular.eot');
+    src: url('fonts/Akronim-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Akronim-Regular.woff2') format('woff2'),
+        url('fonts/Akronim-Regular.woff') format('woff'),
+        url('fonts/Akronim-Regular.svg#Akronim-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+p:first-of-type{
+    font-family: Verdana;
+}
+p:nth-of-type(2){
+    font-family: Didot,serif;
+}
+p:nth-of-type(3){
+    font-family: FreeMono,monospace;
+}
+p:nth-of-type(4){
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+p:nth-of-type(5){
+    font-family: 'Akronim', cursive;
+    font-size: 24px;
+}
+p:nth-of-type(6){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
