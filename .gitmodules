@@ -22,3 +22,6 @@
 [submodule "ConquerBlocks/Backend/Django_Inicial"]
 	path = ConquerBlocks/Backend/Django_Inicial
 	url = https://github.com/ConquerBlocks/conquerblocks-django-inicial.git
+[submodule "ConquerBlocks/Backend_experto/NodeJS"]
+	path = ConquerBlocks/Backend_experto/NodeJS
+	url = https://github.com/ConquerBlocks/conquerblocks-nodejs.git
