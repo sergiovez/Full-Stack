@@ -40,3 +40,6 @@
 [submodule "ConquerBlocks/Prework/Git_Github"]
 	path = ConquerBlocks/Prework/Git_Github
 	url = https://github.com/ConquerBlocks/conquerblocks-git-github.git
+[submodule "ConquerBlocks/Prework/Linux_Terminal"]
+	path = ConquerBlocks/Prework/Linux_Terminal
+	url = https://github.com/ConquerBlocks/conquerblocks-linux-terminal.git
