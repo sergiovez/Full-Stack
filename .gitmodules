@@ -37,3 +37,6 @@
 [submodule "ConquerBlocks/Frontend_experto/VueJS"]
 	path = ConquerBlocks/Frontend_experto/VueJS
 	url = https://github.com/ConquerBlocks/conquerblocks-vuejs.git
+[submodule "ConquerBlocks/Prework/Git_Github"]
+	path = ConquerBlocks/Prework/Git_Github
+	url = https://github.com/ConquerBlocks/conquerblocks-git-github.git
