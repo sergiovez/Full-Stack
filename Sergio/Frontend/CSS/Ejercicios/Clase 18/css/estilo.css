@@ -1,0 +1,16 @@
+a.Anterior::before{
+    content: "<< ";
+}
+
+a.Siguiente::after{
+    content: " >>";
+}
+
+a.Siguiente{
+    float: right;
+}
+
+section{
+    background-color: rgba(219, 219, 219, 0.712);
+    width: 500px;
+}
