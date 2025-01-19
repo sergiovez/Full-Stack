@@ -1,0 +1,83 @@
+.contenedor1{
+    display: grid;
+    width: 200px;
+    height: 300px;
+    grid: repeat(3, 100px)/100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contenedor1 div img{
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+
+div.contenedor1 div.elemento3{
+    transform: rotate(180deg);
+}
+
+.contenedor2{
+    display: grid;
+    width: 200px;
+    height: 300px;
+    grid: repeat(2, 100px)/repeat(2, 100px);
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 100px;
+}
+
+div.contenedor2 div img{
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+
+div.contenedor2 div.elemento3{
+    transform: rotate(180deg);
+}
+div.contenedor2 div.elemento4{
+    transform: rotate(180deg);
+}
+
+.contenedor3{
+    display: grid;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    grid: repeat(4, 75px)/repeat(2, 100px);
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 0px;
+}
+
+div.contenedor3 div img{
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+div.contenedor3 div.rotate{
+    transform: rotate(180deg);
+}
+
+div.contenedor3 div.elemento9{
+    position: absolute;
+    bottom: 50px;
+}
+
+div.contenedor3 div.elemento10{
+    position: absolute;
+    top: 50px;
+}
+

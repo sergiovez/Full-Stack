@@ -1,0 +1,269 @@
+div.principal_1{
+    display: grid;
+    grid: repeat(3, 1fr)/repeat(3, 1fr);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_1 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_2{
+    display: grid;
+    grid: repeat(3, 1fr)/repeat(3, 1fr);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_2 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_2 div.clase_1{
+    grid-column: 1 / span 3;
+}
+
+div.principal_3{
+    display: grid;
+    grid: repeat(3, 1fr)/ 100px repeat(2, 150px);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_3 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_3 div.clase_1{
+    grid-column: 1 / span 3;
+}
+
+div.principal_3 div.clase_2{
+    grid-row: 2 / span 2;
+}
+
+div.principal_4{
+    display: grid;
+    grid: repeat(3, 1fr)/ 100px repeat(2, 150px);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_4 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_4 div.clase_1{
+    grid-area: 1/1/span 1/span 3;
+}
+
+div.principal_4 div.clase_2{
+    grid-area: 2/1/span 2/span 1;
+}
+
+div.principal_5{
+    display: grid;
+    grid: repeat(2, 1fr)/repeat(4, 1fr);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_5 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_5 div.clase_1{
+    grid-area: 1/1/span 1/span 3;
+}
+
+div.principal_5 div.clase_2{
+    grid-area: 1/4/span 2/span 1;
+}
+
+div.principal_6{
+    display: grid;
+    grid: repeat(3, 1fr)/repeat(6, 1fr);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_6 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_6 div.clase_1{
+    grid-area: 1/1/span 1/span 3;
+}
+
+div.principal_6 div.clase_2{
+    grid-area: 1/4/span 1/span 3;
+}
+
+div.principal_6 div.clase_3{
+    grid-area: 2/1/span 1/span 2;
+}
+
+div.principal_6 div.clase_4{
+    grid-area: 2/3/span 1/span 4;
+}
+
+div.principal_6 div.clase_5{
+    grid-area: 3/1/span 1/span 6;
+}
+
+div.principal_7{
+    display: grid;
+    grid: repeat(3, 1fr)/repeat(3, 1fr);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_7 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_7 div.clase_1{
+    grid-area: 1/2/span 1/span 2;
+}
+
+div.principal_7 div.clase_2{
+    grid-area: 2/1/span 1/span 1;
+}
+
+div.principal_7 div.clase_3{
+    grid-area: 2/2/span 1/span 2;
+}
+
+div.principal_7 div.clase_4{
+    grid-area: 3/1/span 1/span 3;
+}
+
+div.principal_8{
+    display: grid;
+    grid: repeat(2, 1fr)/repeat(3, 1fr);
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_8 div{
+    background-color: grey;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+div.principal_8 div.clase_1{
+    order: 1;
+}
+
+div.principal_9{
+    display: grid;
+    grid: repeat(3, 1fr)/repeat(2, 1fr);
+    width: 300px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-auto-flow: column;
+}
+
+div.principal_9 div{
+    background-color: grey;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+div.principal_10{
+    display: grid;
+    grid: 1fr repeat(2, 2fr)/ 1fr 2fr;
+    width: 600px;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.principal_10 div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div.principal_10 div.clase_4{
+    grid-area: 2/2/span 2/span 1;
+}
+
+div.interno{
+    display: grid;
+    grid: repeat(2, 1fr)/ repeat(2, 1fr);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 1px;
+}
+
+div.interno div{
+    background-color: lightgray;
+    color: black;
+}
+
+div.interno div.interno_1{
+    grid-area: 1/1/span 1/span 2;
+}

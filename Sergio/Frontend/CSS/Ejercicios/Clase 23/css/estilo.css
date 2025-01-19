@@ -1,0 +1,107 @@
+div.principal{
+    width: 900px;
+    height: 500px;
+    border: 5px solid red;
+    display: flex;
+}
+
+div.principal div{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    color: white;
+    padding: 5px;
+}
+
+div.clase_1{
+    background-color: turquoise;
+}
+div.clase_2{
+    background-color: blue;
+}
+div.clase_3{
+    background-color: purple;
+}
+div.clase_4{
+    background-color: darkblue;
+}
+div.clase_5{
+    background-color: yellow;
+}
+div.clase_6{
+    background-color: orange;
+}
+div.clase_7{
+    background-color: red;
+}
+div.clase_8{
+    background-color: grey;
+}
+div.clase_9{
+    background-color: green;
+}
+div.clase_10{
+    background-color: lightgreen;
+}
+
+div.ejercicio_2{
+    flex-direction: column ;
+}
+
+div.ejercicio_2 div.clase_1{
+    order:10;
+}
+div.ejercicio_2 div.clase_2{
+    order:9;
+}
+div.ejercicio_2 div.clase_3{
+    order:8;
+}
+div.ejercicio_2 div.clase_4{
+    order:7;
+}
+div.ejercicio_2 div.clase_5{
+    order:6;
+}
+div.ejercicio_2 div.clase_6{
+    order:5;
+}
+div.ejercicio_2 div.clase_7{
+    order:4;
+}
+div.ejercicio_2 div.clase_8{
+    order:3;
+}
+div.ejercicio_2 div.clase_9{
+    order:2;
+}
+div.ejercicio_2 div.clase_10{
+    order:1;
+}
+
+div.ejercicio_3 div{
+    height: 60px;
+    width: 290px;
+}
+
+div.ejercicio_3{
+    flex-wrap: wrap;
+    gap:0;
+    align-content: flex-start;
+}
+
+div.ejercicio_4 div.clase_5{
+    order:-1;
+}
+div.ejercicio_4 div.clase_6{
+    order:10;
+}
+
+div.ejercicio_4 div{
+    flex:1;
+}
+
+div.ejercicio_4{
+    align-items: flex-start;
+    min-height: 0;
+}
